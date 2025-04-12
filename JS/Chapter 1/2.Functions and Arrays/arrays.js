@@ -21,7 +21,7 @@
 */
 
 
-let names = ['shubham', 'pandit', 'puri', 'sejal', 'pravin', 'patankar'];
+let names = ['shubham', 'pandit', 'puri', 'sanket', 'himanshu', 'Pratik'];
 
 for (let a = 0; a < names.lengt; a++) {
     console.log(names[a]);
@@ -78,14 +78,14 @@ console.log(newArray);
     It will return an index of an given element
 */
 console.log(names);
-console.log(names.indexOf("sejal"));
+console.log(names.indexOf("sanket"));
 
 /*
     8.names.includes("sejal");
      It will check whether the given element is present inside array or not
      if present it will return true else return false
 */
-console.log(names.includes("sejal"));
+console.log(names.includes("sanket"));
 
 
 /*
